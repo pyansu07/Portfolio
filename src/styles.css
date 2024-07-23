@@ -1,0 +1,104 @@
+
+@keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-30px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+ 
+  .bubble {
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.6); 
+    animation: float 6s ease-in-out infinite;
+    pointer-events: none;
+  }
+  
+
+  .bubble:nth-child(1) {
+    width: 20px;
+    height: 20px;
+    background-color: rgba(255, 0, 0, 0.6);
+    animation-duration: 4s;
+  }
+  
+  .bubble:nth-child(2) {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 255, 0, 0.6);
+    animation-duration: 6s;
+  }
+  
+  .bubble:nth-child(3) {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 255, 0.6);
+    animation-duration: 8s;
+  }
+  
+  .bubble:nth-child(4) {
+    width: 25px;
+    height: 25px;
+    background-color: rgba(255, 255, 0, 0.6);
+    animation-duration: 5s;
+  }
+  
+  .bubble:nth-child(5) {
+    width: 35px;
+    height: 35px;
+    background-color: rgba(255, 0, 255, 0.6);
+    animation-duration: 7s;
+  }
+  
+  .bubble:nth-child(6) {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 255, 255, 0.6);
+    animation-duration: 6s;
+  }
+  
+  /* Glass-like bubbles */
+  .bubble.glass:nth-child(1) {
+    width: 30px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6); 
+    backdrop-filter: blur(8px); 
+    animation-duration: 4s;
+  }
+  
+  .bubble.glass:nth-child(2) {
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.6); 
+    backdrop-filter: blur(10px); 
+    animation-duration: 6s;
+  }
+  
+  .bubble.glass:nth-child(3) {
+    width: 70px;
+    height: 70px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6); 
+    backdrop-filter: blur(12px); 
+    animation-duration: 8s;
+  }
+  
+
+  .bubbles-container {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden; 
+    z-index: -1; 
+  }
+  
