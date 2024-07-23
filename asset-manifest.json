@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.e62bc0d5.css",
+    "main.js": "/Portfolio/static/js/main.2101eb6a.js",
+    "static/media/kby.png": "/Portfolio/static/media/kby.4d5efb3b17f662a64174.png",
+    "static/media/orbitron-v29-latin-800.ttf": "/Portfolio/static/media/orbitron-v29-latin-800.3bb4e3af191a50221ef9.ttf",
+    "static/media/orbitron-v29-latin-800.woff2": "/Portfolio/static/media/orbitron-v29-latin-800.1015f5fe4611dc294444.woff2",
+    "index.html": "/Portfolio/index.html",
+    "main.e62bc0d5.css.map": "/Portfolio/static/css/main.e62bc0d5.css.map",
+    "main.2101eb6a.js.map": "/Portfolio/static/js/main.2101eb6a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e62bc0d5.css",
+    "static/js/main.2101eb6a.js"
+  ]
+}
